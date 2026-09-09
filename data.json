@@ -1,37 +1,162 @@
 {
   "history": {
     "2026-09-06": [
-      { "fila": "Sorting", "status": "Em andamento", "verificados": 1577, "pendentes": 190 },
-      { "fila": "Missort", "status": "Em andamento", "verificados": 41, "pendentes": 6 },
-      { "fila": "Containerized", "status": "Em andamento", "verificados": 2061, "pendentes": 501 },
-      { "fila": "Returns", "status": "Pausado", "verificados": 134, "pendentes": 126 },
-      { "fila": "Dispatch", "status": "Pausado", "verificados": 8407, "pendentes": 1328 },
-      { "fila": "Fraude", "status": "Pausado", "verificados": 11, "pendentes": 8 },
-      { "fila": "Problem Solving", "status": "Pausado", "verificados": 51, "pendentes": 803 },
-      { "fila": "Damaged", "status": "Pausado", "verificados": 0, "pendentes": 3 },
-      { "fila": "Buffered", "status": "Pausado", "verificados": 1008, "pendentes": 20 },
-      { "fila": "Bulky returns", "status": "Pausado", "verificados": 2, "pendentes": 66 }
+      {
+        "fila": "Sorting",
+        "status": "Em andamento",
+        "verificados": 1577,
+        "pendentes": 190
+      },
+      {
+        "fila": "Missort",
+        "status": "Em andamento",
+        "verificados": 41,
+        "pendentes": 6
+      },
+      {
+        "fila": "Containerized",
+        "status": "Em andamento",
+        "verificados": 2061,
+        "pendentes": 501
+      },
+      {
+        "fila": "Returns",
+        "status": "Pausado",
+        "verificados": 134,
+        "pendentes": 126
+      },
+      {
+        "fila": "Dispatch",
+        "status": "Pausado",
+        "verificados": 8407,
+        "pendentes": 1328
+      },
+      {
+        "fila": "Fraude",
+        "status": "Pausado",
+        "verificados": 11,
+        "pendentes": 8
+      },
+      {
+        "fila": "Problem Solving",
+        "status": "Pausado",
+        "verificados": 51,
+        "pendentes": 803
+      },
+      {
+        "fila": "Damaged",
+        "status": "Pausado",
+        "verificados": 0,
+        "pendentes": 3
+      },
+      {
+        "fila": "Buffered",
+        "status": "Pausado",
+        "verificados": 1008,
+        "pendentes": 20
+      },
+      {
+        "fila": "Bulky returns",
+        "status": "Pausado",
+        "verificados": 2,
+        "pendentes": 66
+      }
     ],
     "2026-09-07": [
-      { "fila": "Sorting", "status": "Concluída", "verificados": 5097, "pendentes": 250 },
-      { "fila": "Missort", "status": "Concluída", "verificados": 10, "pendentes": 13 },
-      { "fila": "Containerized", "status": "Concluída", "verificados": 3042, "pendentes": 76 },
-      { "fila": "Returns", "status": "Concluída", "verificados": 82, "pendentes": 257 },
-      { "fila": "Dispatch", "status": "Concluída", "verificados": 883, "pendentes": 38 },
-      { "fila": "Fraude", "status": "Concluída", "verificados": 2, "pendentes": 13 },
-      { "fila": "Problem Solving", "status": "Concluída", "verificados": 166, "pendentes": 852 },
-      { "fila": "Damaged", "status": "Concluída", "verificados": 0, "pendentes": 3 },
-      { "fila": "Buffered", "status": "Concluída", "verificados": 2176, "pendentes": 20 },
-      { "fila": "Bulky returns", "status": "Concluída", "verificados": 0, "pendentes": 66 }
+      {
+        "fila": "Sorting",
+        "status": "Concluída",
+        "verificados": 5097,
+        "pendentes": 250
+      },
+      {
+        "fila": "Missort",
+        "status": "Concluída",
+        "verificados": 10,
+        "pendentes": 13
+      },
+      {
+        "fila": "Containerized",
+        "status": "Concluída",
+        "verificados": 3042,
+        "pendentes": 76
+      },
+      {
+        "fila": "Returns",
+        "status": "Concluída",
+        "verificados": 82,
+        "pendentes": 257
+      },
+      {
+        "fila": "Dispatch",
+        "status": "Concluída",
+        "verificados": 883,
+        "pendentes": 38
+      },
+      {
+        "fila": "Fraude",
+        "status": "Concluída",
+        "verificados": 2,
+        "pendentes": 13
+      },
+      {
+        "fila": "Problem Solving",
+        "status": "Concluída",
+        "verificados": 166,
+        "pendentes": 852
+      },
+      {
+        "fila": "Damaged",
+        "status": "Concluída",
+        "verificados": 0,
+        "pendentes": 3
+      },
+      {
+        "fila": "Buffered",
+        "status": "Concluída",
+        "verificados": 2176,
+        "pendentes": 20
+      },
+      {
+        "fila": "Bulky returns",
+        "status": "Concluída",
+        "verificados": 0,
+        "pendentes": 66
+      }
     ]
   },
   "deviations": {
     "2026-09-07": {
-      "Problem Solving": { "avaria": 400, "embalagem": 200, "projeto": 100, "etiqueta": 50, "semid": 30 },
-      "Returns": { "avaria": 300, "embalagem": 200, "projeto": 0, "etiqueta": 0, "semid": 0 },
-      "Sorting": { "avaria": 100, "embalagem": 80, "projeto": 0, "etiqueta": 0, "semid": 0 },
-      "Buffered": { "avaria": 10, "embalagem": 5, "projeto": 0, "etiqueta": 0, "semid": 0 }
+      "Problem Solving": {
+        "avaria": 400,
+        "embalagem": 200,
+        "projeto": 100,
+        "etiqueta": 50,
+        "semid": 30
+      },
+      "Returns": {
+        "avaria": 300,
+        "embalagem": 200,
+        "projeto": 0,
+        "etiqueta": 0,
+        "semid": 0
+      },
+      "Sorting": {
+        "avaria": 100,
+        "embalagem": 80,
+        "projeto": 0,
+        "etiqueta": 0,
+        "semid": 0
+      },
+      "Buffered": {
+        "avaria": 10,
+        "embalagem": 5,
+        "projeto": 0,
+        "etiqueta": 0,
+        "semid": 0
+      }
     }
   },
-  "justifications": {}
+  "justifications": {},
+  "__test": "Concluída ção ãõáéí"
 }
